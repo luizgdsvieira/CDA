@@ -12,7 +12,7 @@ from firebase_admin import credentials, firestore
 from google.api_core.exceptions import GoogleAPICallError
 
 # Inicializar o Firebase
-cred = credentials.Certificate("cdaserver-firebase-adminsdk-1wv4x-9bbf23a34a.json")
+cred = credentials.Certificate("Adicione aqui a sua chave")
 firebase_admin.initialize_app(cred)
 db = firestore.client()
 
